@@ -1,0 +1,36 @@
+/* 
+    Document   : crystals
+    Created on : 2012-dec-26, 16:22:34
+    Author     : johancarlsson
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.crystalTable
+{
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+/*.crystalTable td{
+    padding: 0;
+}*/
+
+td.brickCrystal{
+    background-color: beige;
+}
+
+td.brickEmpty{
+    background-color: black;
+}
+
+h1 {
+    background-color: yellow;
+}
+

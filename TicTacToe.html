@@ -1,0 +1,31 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe mania...</title>
+        <link type="text/css" href="css/tictac.css" rel="stylesheet">
+        <script src="js/jquery-1.7.1.js"></script>
+        <script src="js/tictactoe.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <script>
+            $(document).ready(function(){
+                $.TicTacToe($("#TicTac"), 10, 10);
+            }
+            )
+            var resetGame = function(){
+                $.TicTacToe($("#TicTac"), 10, 10);
+            }
+        </script>
+        <h1>Welcome to tic tac toe...</h1>
+        
+        <div id="TicTac">
+        </div>
+        <br>
+        <a onclick="resetGame();">Reset game...</a>
+    </body>
+</html>

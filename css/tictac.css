@@ -1,0 +1,29 @@
+/* 
+    Document   : tictac
+    Created on : 2012-dec-05, 12:25:51
+    Author     : johancarlsson
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.TicTacToe {
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+}
+
+.TicTacToe tr td {
+    border-style: solid;
+}
+
+.Player1 {
+    background-color: lightcoral;
+}
+
+.Player2 {
+    background-color: lightgreen;
+}
